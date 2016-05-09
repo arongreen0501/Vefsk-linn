@@ -1,0 +1,124 @@
+<!-- APPLY-->
+
+<div class="apply-container">
+  <div class="apply-box">
+  <form id="ms-form">
+
+    <h2 class="fs-title">Umsókn</h2>
+    <p class="umsokn_sub">Vefþróun 2016/2017</p>
+
+    <div class="skref">
+      <ul id="progressbar">
+        <li class="active">Umsækjandi</li>
+        <li>Menntun</li>
+        <li>Starfsreynsla</li>
+        <li>Kunnátta</li>
+        <li>Klára umsókn</li>
+      </ul>
+    </div>
+
+    <!-- Sækja um fillout box -->
+
+    <fieldset>
+      <h5 class>Upplýsingar um umsækjanda</h5>
+
+      <label for="name">Nafn*</label>
+      <input type="text" id="name">
+
+      <label for="kennitala">Kennitala*</label>
+      <input type="text" id="kennitala">
+
+      <label for="email">Netfang*</label>
+      <input type="email" id="email">
+
+      <label for="simi">Sími*</label>
+      <input type="number" id="simi">
+
+      <label for="address">Heimilisfang*</label>
+      <input type="text" id="address">
+
+      <input type="button" name="next" class="next action-button" value="Áfram"/>
+    </fieldset>
+
+    <fieldset>
+      <h5 class>Upplýsingar um menntun</h5>
+
+      <p>Menntun</p>
+
+      <label for="name">Vinsamlega tilgreinið námsferil í tímaröð</label>
+      <input type="text" id="menntun-box">
+
+      <p>Önnur menntun og námsleiðir</p>
+
+      <label for="kennitala">Vinsamlega tilgreinið aðra menntun sem umsækjandi telur að styrki umsókn</label>
+      <input type="text" id="menntun-box">
+
+      <input type="button" name="previous" class="previous action-button" value="Til baka" />
+
+      <input type="button" name="next" class="next action-button" value="Áfram"/>
+    </fieldset>
+
+
+  </form>
+  </div>
+
+
+  <!-- Textauppl. -->
+
+  <div class="apply-text">
+    <p>Miðað er við að nemendur sem hefja nám í vefþróun með áherslu á viðmótsforritun hafi:</p>
+    <ul>
+      <li>Lokið stúdentsprófi eða sambærilegri menntun</li>
+      <li>Góða grunnþekkingu á tölvum</li>
+      <li>Góða enskukunnáttu</li>
+    </ul>
+    <p>Ef umsækjandi hefur starfsreynslu í viðmótsforritun eða skyldum greinum verður það metið sérstaklega. Skólinn getur sett skilyrði um að umsækjandi bæti við sig undirbúningsgreinum.</p>
+    <p>Takmarkað sætaframboð er í nám í vefþróun og ekki komast allir að sem vilja. Það er því mikilvægt að vanda umsókn.</p>
+    <p>Til að umsókn sé tekin gild er nauðsynlegt að fylla út allar upplýsingar hér fyrir neðan og skila inn eftirfarandi gögnum:</p>
+    <ul class="finale-text">
+      <li>Umsókn á menntagatt.is</li>
+      <li>Staðfest afrit prófskírteina</li>
+      <li>Meðmælabréf (kostur en ekki skylda)</li>
+      <li>Mynd (kostur en ekki skylda)</li>
+      <li>Ferilmappa (portfolio) af hvers konar verkefnum, s.s. grafísk vinna, teikningar, vefsíður, klippivinna o.s.frv. Má einnig senda vefkrækju á youtube/vefsíðu viðkomandi (kostur en ekki skylda)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- SECTION HAFÐU SAMBAND OG KORT -->
+
+<section id="section-contact">
+  <div id="map"> </div>
+
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs_SF7hlZucvTkpipcGm4INuIXqujHiFY&signed_in=true&callback=initMap"async defer></script>
+
+  <!-- CONTACT -->
+
+  <div class="wrap">
+    <form class="contact-form">
+      <div class="form-wrap">
+        <h2><span style="color: #FDB727; font-family: 'Open Sans'; font-weight: 100;">&#8212 </span>Hafðu samband<span style="color: #FDB727; font-family: 'Open Sans'; font-weight: 100;"> &#8212</span></h2>
+        <textarea type="text" type="message" class="form-message" placeholder="Skrifaðu skilaboð hér..."></textarea>
+        <input type="text" type="name" class="form-name" placeholder="Nafn *">
+        <input type="text" type="name" class="form-tel" placeholder="Sími..">
+        <input type="text" type="name" class="form-email" placeholder="Netfang *">
+        <a><button class="send-message">Senda</button></a>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+<!-- MOBILE CONTACT -->
+<section id="section-mobileContact">
+  <div class="wrap">
+    <form class="mobileContact-form">
+        <h2>Hafðu samband</h2>
+        <textarea type="text" type="message" class="contact-mobile-message" placeholder="Skrifaðu skilaboð hér..."></textarea>
+        <input type="text" type="name" class="contact-mobile-name" placeholder="Nafn *">
+        <input type="text" type="name" class="contact-mobile-email" placeholder="Netfang *">
+        <input type="text" type="name" class="contact-mobile-tel" placeholder="Sími..">
+        <a><button class="contact-mobile-send">Senda</button></a>
+    </form>
+  </div>
+</section>
